@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #723cd5;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;    
+}
+
