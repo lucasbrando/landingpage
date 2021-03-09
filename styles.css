@@ -9,11 +9,42 @@ body {
     color: #fff;
 }
 
-h1, h2, h3, h4, h5 {
+main {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.quicksand {
     font-family: 'Quicksand', sans-serif;
 }
 
-p {
+.roboto {
     font-family: 'Roboto', sans-serif;    
 }
 
+#dev {
+    font-size: 40px;
+}
+
+#counter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 220px;
+}
+
+#counter-day, #counter-hour, #counter-minute, #counter-second {
+    font-size: 80px;
+    margin-left: 70px;
+}
+
+#counter-day-sub, #counter-hour-sub, #counter-minute-sub, #counter-second-sub {
+    margin-left: -10px;
+}    
+#counter-day::after, #counter-hour::after, #counter-minute::after {
+    content: " :";
+    margin-left: 40px;
+}
+
+#counter-second {
+    margin-left: -20px;
+}
