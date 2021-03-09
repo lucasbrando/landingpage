@@ -11,7 +11,8 @@ body {
 
 main {
     text-align: center;
-    margin: 80px 0;
+    margin: 50px auto;
+    max-width: 800px;
 }
 
 .quicksand {
@@ -28,23 +29,44 @@ main {
 
 #counter {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 20px 220px;
+    grid-template-columns: repeat(7, 1fr);
 }
 
-#counter-day, #counter-hour, #counter-minute, #counter-second {
+#counter-day, #counter-hour, #counter-minute, #counter-second, .counter-separator {
     font-size: 80px;
-    margin-left: 70px;
+    font-weight: bold;
 }
 
-#counter-day-sub, #counter-hour-sub, #counter-minute-sub, #counter-second-sub {
-    margin-left: -10px;
-}    
-#counter-day::after, #counter-hour::after, #counter-minute::after {
-    content: " :";
-    margin-left: 40px;
+#welcome {
+    font-size: 25px;
 }
 
-#counter-second {
-    margin-left: -20px;
+#title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#counter, #welcome, #title, #text, #buttons, #social-media {
+    margin: 30px 0;
+}
+
+#btn-more, #btn-notify {
+    color: #fff;
+    background-color: #723cd5;
+    border: 1px solid #fff;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#btn-notify {
+    background-color: #00f;
+    border:0;
+}
+
+#social-media svg {
+    margin: 10px;
 }
