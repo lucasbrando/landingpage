@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-}
+@import "reboot.css";
 
 body {
     background-color: #723cd5;
