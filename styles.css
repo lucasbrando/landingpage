@@ -66,3 +66,7 @@ main {
     background-color: #00f;
     border:0;
 }
+
+#social-media svg {
+    margin: 10px;
+}
