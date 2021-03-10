@@ -66,3 +66,28 @@ main {
 #social-media svg {
     margin: 10px;
 }
+
+#content {
+    position: absolute;
+    display: none;
+    top:0;
+    right: 0;
+    width: 400px;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+#open-content {
+    position: absolute;
+    color: #fff;
+    right: 20px;
+    top: 20px;
+}
+
+#close-content {
+    position: absolute;
+    color: #fff;
+    left: -50px;
+    top: 15px;
+}
+
