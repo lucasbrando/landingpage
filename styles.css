@@ -3,6 +3,7 @@
 body {
     background-color: #723cd5;
     color: #fff;
+    overflow: hidden;
 }
 
 main {
@@ -69,23 +70,24 @@ main {
 
 #content {
     position: absolute;
-    //display: none;
     display: block;
     top:0;
     right: 0;
     width: 400px;
     min-height: 100vh;
     background-color: #fff;
+    transition: all ease 0.3s;
+}
+
+.contentopen {
+    transform: translateX(0px);
+}
+
+.contentclose {
+    transform: translateX(400px);
 }
 
 #open-content {
-    position: absolute;
-    color: #fff;
-    right: 50px;
-    top: 50px;
-}
-
-#close-content {
     position: absolute;
     color: #fff;
     left: -70px;

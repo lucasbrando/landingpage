@@ -1,11 +1,8 @@
 function showhidecontent() {
     if(document.querySelector('#content').style.display == 'none') {
-        document.querySelector('#content').style.display = 'block';
-        document.querySelector('#bg').style.display = 'block';
+        document.querySelector('#content').classList.add('contentopen');
     } else {
-        document.querySelector('#content').style.display = 'none';
-        document.querySelector('#bg').style.display = 'none';
+        document.querySelector('#content').classList.remove('contentopen');
+        document.querySelector('#content').classList.add('contentclose');
     }    
 }
-
-showhidecontent();
