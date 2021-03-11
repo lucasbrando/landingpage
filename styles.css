@@ -3,7 +3,7 @@
 body {
     background-color: #723cd5;
     color: #fff;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 main {
